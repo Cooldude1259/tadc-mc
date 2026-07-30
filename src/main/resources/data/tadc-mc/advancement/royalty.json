@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "tadc-mc:crown"
+    },
+    "title": {
+      "text": "Royalty",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Obtain the crown from the admin or remenents of a dead royal."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "criteria": {
+      "has_crown": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "tadc-mc:crown"
+            }
+          ]
+        }
+      }
+    }
+}
