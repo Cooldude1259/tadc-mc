@@ -28,6 +28,17 @@ processResources {
 	def version = project.version
 	inputs.property "version", version
 
+    // EXCLUDE
+    exclude "src/main/resources/data/tadc-mc/dimension/**"
+    exclude "src/main/resources/data/tadc-mc/dimension_type/**"
+    exclude "src/main/resources/data/tadc-mc/worldgen/**"
+    exclude "src/main/resources/assets/tadc-mc/blockstates/**"
+    exclude "**/mind.*"
+    exclude "**/mind_deep.*"
+    exclude "**/shell_age0.*"
+    exclude "**/shell_age1.*"
+    exclude "src/main/java/com/cooldude12/unnoficialtadc/ShellBlocks.java"
+
 	filesMatching("fabric.mod.json") {
 		expand "version": version
 	}
