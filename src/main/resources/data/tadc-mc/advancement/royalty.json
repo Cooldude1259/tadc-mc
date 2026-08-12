@@ -1,30 +1,35 @@
 {
   "display": {
     "icon": {
-      "item": "tadc-mc:crown"
+      "id": "tadc-mc:crown"
     },
     "title": {
       "text": "Royalty",
       "color": "gold"
     },
     "description": {
-      "text": "Obtain the crown from the admin or remenents of a dead royal."
+      "text": "Collect the legendary crown."
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-    "criteria": {
-      "has_crown": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "item": "tadc-mc:crown"
-            }
-          ]
-        }
+  "criteria": {
+    "has_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tadc-mc:crown"
+          }
+        ]
       }
     }
+  },
+  "requirements": [
+    [
+      "has_crown"
+    ]
+  ]
 }

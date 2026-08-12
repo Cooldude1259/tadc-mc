@@ -1,3 +1,7 @@
 {
-  "item.tadc-mc.crown": "Crown"
+  "item.tadc-mc.crown": "Crown",
+  "item.tadc-mc.blain": "Blain",
+  "block.tadc-mc.shell": "Shell",
+  "block.tadc-mc.mind": "Mind",
+  "block.tadc-mc.mind_deep": "Deeper Mind"
 }
