@@ -43,14 +43,17 @@ replay_*.log
 src/main/resources/data/tadc-mc/dimension/
 src/main/resources/data/tadc-mc/dimension_type/
 src/main/resources/data/tadc-mc/worldgen/
-src/main/resources/assets/tadc-mc/blockstates/
+src/main/resources/assets/tadc-mc/blockstates/mind.json
+src/main/resources/assets/tadc-mc/blockstates/mind_deep.json
+src/main/resources/assets/tadc-mc/blockstates/shell.json
 src/main/resources/assets/tadc-mc/models/block/mind.json
 src/main/resources/assets/tadc-mc/models/block/mind_deep.json
 src/main/resources/assets/tadc-mc/models/block/shell_age0.json
 src/main/resources/assets/tadc-mc/models/block/shell_age1.json
 src/main/resources/assets/tadc-mc/models/item/mind.json
 src/main/resources/assets/tadc-mc/models/item/shell.json
-src/main/resources/assets/tadc-mc/textures/block/
+src/main/resources/assets/tadc-mc/textures/block/mind*.png
+src/main/resources/assets/tadc-mc/textures/block/shell*.png
 src/main/java/com/cooldude12/unnoficialtadc/ShellBlock.java
 
 # Dev-only worldgen holding folder (see RESTORE_NOTES.md inside it)

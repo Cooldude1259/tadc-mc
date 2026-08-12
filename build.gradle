@@ -32,12 +32,12 @@ processResources {
     exclude "data/tadc-mc/dimension/**"
     exclude "data/tadc-mc/dimension_type/**"
     exclude "data/tadc-mc/worldgen/**"
-    exclude "assets/tadc-mc/blockstates/**"
     exclude "**/mind.*"
     exclude "**/mind_deep.*"
     exclude "**/shell_age0.*"
     exclude "**/shell_age1.*"
     exclude "src/main/java/com/cooldude12/unnoficialtadc/ShellBlocks.java"
+    exclude "**/shell.*"
 
 	filesMatching("fabric.mod.json") {
 		expand "version": version
