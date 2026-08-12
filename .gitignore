@@ -52,3 +52,6 @@ src/main/resources/assets/tadc-mc/models/item/mind.json
 src/main/resources/assets/tadc-mc/models/item/shell.json
 src/main/resources/assets/tadc-mc/textures/block/
 src/main/java/com/cooldude12/unnoficialtadc/ShellBlock.java
+
+# Dev-only worldgen holding folder (see RESTORE_NOTES.md inside it)
+_dev_only_worldgen/

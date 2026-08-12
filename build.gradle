@@ -29,10 +29,10 @@ processResources {
 	inputs.property "version", version
 
     // EXCLUDE
-    exclude "src/main/resources/data/tadc-mc/dimension/**"
-    exclude "src/main/resources/data/tadc-mc/dimension_type/**"
-    exclude "src/main/resources/data/tadc-mc/worldgen/**"
-    exclude "src/main/resources/assets/tadc-mc/blockstates/**"
+    exclude "data/tadc-mc/dimension/**"
+    exclude "data/tadc-mc/dimension_type/**"
+    exclude "data/tadc-mc/worldgen/**"
+    exclude "assets/tadc-mc/blockstates/**"
     exclude "**/mind.*"
     exclude "**/mind_deep.*"
     exclude "**/shell_age0.*"
@@ -82,4 +82,14 @@ publishing {
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
 	}
+}
+
+// Not Ready yet
+
+sourceSets {
+    main {
+        java {
+            exclude 'com/cooldude12/unnoficialtadc/ShellBlock.java'
+        }
+    }
 }
