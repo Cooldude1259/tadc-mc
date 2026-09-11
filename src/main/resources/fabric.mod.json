@@ -3,15 +3,15 @@
 	"id": "tadc-mc",
 	"version": "${version}",
 	"name": "UNOFFICIAL TADC MC server",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A fun mod that can give you a bunch of fun and random stuff.",
 	"authors": [
-		"Me!"
+		"Cooldude1259"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tadc-mc/icon.png",
 	"environment": "*",
 	"entrypoints": {

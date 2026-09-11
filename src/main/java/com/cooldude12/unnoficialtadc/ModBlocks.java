@@ -49,6 +49,16 @@ public class ModBlocks {
             true
     );
 
+
+
+    // Trim extracor
+    public static final Block TRIM_EXTRACTOR = register(
+            "trim_extractor",
+            TrimExtractorBlock::new,
+            BlockBehaviour.Properties.of().strength(2.0f),
+            true
+    );
+
     // Maybe delete?
 
     // public static final Block RESTORED = register(
