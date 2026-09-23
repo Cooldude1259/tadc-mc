@@ -3,5 +3,11 @@
   "item.tadc-mc.blain": "Blain",
   "block.tadc-mc.shell": "Shell",
   "block.tadc-mc.mind": "Mind",
-  "block.tadc-mc.mind_deep": "Deeper Mind"
+  "block.tadc-mc.mind_deep": "Deeper Mind",
+  "itemGroup.tadc-mc.main": "Mod Extras",
+
+  "itemGroup.tadc-mc.costumes": "Costumes",
+  "item.tadc-mc.test_costume": "Test Costume",
+  "item.tadc-mc.costumed_stone": "Costumed Stone",
+  "item.tadc-mc.costume_remover": "Costume Remover"
 }

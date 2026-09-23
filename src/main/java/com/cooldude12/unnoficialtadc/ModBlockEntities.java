@@ -11,7 +11,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityT
 public class ModBlockEntities {
 
     public static final BlockEntityType<CostumeBlockEntity> COSTUME_BLOCK_ENTITY =
-            register("costume", CostumeBlockEntity::new /* which block(s)? */);
+            register("costume", CostumeBlockEntity::new, ModBlocks.COSTUMED_STONE, ModBlocks.COSTUMED_GRASS_BLOCK);
 
     private static <T extends BlockEntity> BlockEntityType<T> register(
             String name,

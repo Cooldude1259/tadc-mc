@@ -24,6 +24,7 @@ public class UNOFFICIALTADCMCServer implements ModInitializer {
 		LOGGER.info("Mod Initializing: " + MOD_ID);
         ModItems.registerItems();
         ModBlocks.initialize();
+        ModBlockEntities.initialize();
 	}
 
 	public static Identifier id(String path) {

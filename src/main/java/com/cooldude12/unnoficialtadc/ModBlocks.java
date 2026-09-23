@@ -59,6 +59,19 @@ public class ModBlocks {
             true
     );
 
+    public static final Block COSTUMED_STONE = register(
+            "costumed_stone",
+            CostumedStoneBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.STONE),
+            false
+    );
+    public static final Block COSTUMED_GRASS_BLOCK = register(
+            "costumed_grass_block",
+            CostumedGrassBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.GRASS_BLOCK),
+            false
+    );
+
     // Maybe delete?
 
     // public static final Block RESTORED = register(
