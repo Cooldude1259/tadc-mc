@@ -42,6 +42,7 @@ public class ModItems {
     public static final Item BLAIN = register("blain", Item::new, new Item.Properties().rarity(Rarity.EPIC));
 
     public static final Item TEST_COSTUME = register("test_costume", CostumeItem::new, new Item.Properties().rarity(Rarity.EPIC));
+    public static final Item STONE_HORNS = register("stone_horns", CostumeItem::new, new Item.Properties().rarity(Rarity.EPIC));
 
     public static final Item COSTUME_REMOVER = register("costume_remover", CostumeRemoverItem::new, new Item.Properties());
 
