@@ -1,4 +1,6 @@
 # Extra Mods
+<details>
+<summary>This content is copied from Modrinth. Click to view.</summary>
 This is a mod for a private server, but I also want to share with the world.
 
 As of the most recent version (1.3.3 Alpha) the mod adds 5 things.
@@ -42,6 +44,21 @@ The github repository for the mod is here: https://github.com/Cooldude1259/tadc-
 Help translate the project at https://crowdin.com/project/mod-extras
 
 This project is protected by the MIT license.
+
+</details>
+
+In short, this is a mod I created for the fun of it and would love to share with the world. It has been so much fun to make, and I would find it even more fun if you can enjoy it as much as I do.
+
+## Contributing
+If you would like to contribute to the project, please fork the project. I check the GitHub when I update the mod, so I may invite you to contribute on the mod.
+
+If you do contribute, you will be credited in the mod, and in the source code next to changes you make.
+
+As a contributor, you will be able to contribute code, but you will not be able to publish versions to Modrinth to help protect the reputation of the mod. If you would like to publish a version, contact me with the source code, and I will build it and publish it under your name.
+
+If you wish to contribute, please tell me what public name you prefer to be credited by to officially make you a part of the project.
+
+If you contribute a significant amount of code, you will be added as members to the mod on Modrinth.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
