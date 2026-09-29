@@ -83,6 +83,7 @@ public class ModItems {
             .displayItems((params, output) -> {
                 output.accept(ModItems.COSTUME_REMOVER);
                 output.accept(ModItems.TEST_COSTUME);
+                output.accept(ModItems.STONE_HORNS);
             })
             .build();
 

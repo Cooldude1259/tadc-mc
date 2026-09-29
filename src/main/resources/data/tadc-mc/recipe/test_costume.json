@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "decoration",
+  "ingredients": [
+    "minecraft:yellow_wool",
+    "minecraft:dirt",
+    "minecraft:black_wool"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tadc-mc:test_costume"
+  }
+}

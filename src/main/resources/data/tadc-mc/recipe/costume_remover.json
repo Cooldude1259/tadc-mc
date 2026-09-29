@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    " I ",
+    " T "
+  ],
+  "key": {
+    "T": "minecraft:stick",
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:shears"
+  },
+  "result": {
+    "id": "tadc-mc:costume_remover",
+    "count": 1
+  }
+}
