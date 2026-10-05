@@ -25,6 +25,7 @@ public class UNOFFICIALTADCMCServer implements ModInitializer {
         ModItems.registerItems();
         ModBlocks.initialize();
         ModBlockEntities.initialize();
+        CostumeMap.initialize();
 	}
 
 	public static Identifier id(String path) {
