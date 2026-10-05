@@ -38,6 +38,18 @@ processResources {
     exclude "**/shell_age1.*"
     exclude "src/main/java/com/cooldude12/unnoficialtadc/ShellBlocks.java"
     exclude "**/shell.*"
+    exclude "assets/tadc-mc/blockstates/costumed_*.json"
+    exclude "assets/tadc-mc/equipment/**"
+    exclude "assets/tadc-mc/items/costume_remover.json"
+    exclude "assets/tadc-mc/items/stone_horns.json"
+    exclude "assets/tadc-mc/items/test_costume.json"
+
+    exclude "assets/tadc-mc/models/items/costume_remover.json"
+    exclude "assets/tadc-mc/models/items/crown.json"
+    exclude "assets/tadc-mc/models/items/stone_horns.json"
+    exclude "assets/tadc-mc/models/items/test-costume.json"
+    exclude "assets/tadc-mc/models/items/test_costume_icon.json"
+    exclude "assets/tadc-mc/models/block/stone_horns_icon.json"
 
 	filesMatching("fabric.mod.json") {
 		expand "version": version
@@ -90,6 +102,22 @@ sourceSets {
     main {
         java {
             exclude 'com/cooldude12/unnoficialtadc/ShellBlock.java'
+
+            // Broken in 1.21.1
+
+            exclude 'com/cooldude12/unnoficialtadc/client/CostumeBlockEntityRenderer.java'
+            exclude 'com/cooldude12/unnoficialtadc/client/CostumeBlockEntityRenderState.java'
+            exclude 'com/cooldude12/unnoficialtadc/client/CrownArmorRenderer.java'
+            exclude 'com/cooldude12/unnoficialtadc/client/UNOFFICIALTADCMCClient.java'
+
+            exclude 'com/cooldude12/unnoficialtadc/CostumeBlockEntity.java'
+            exclude 'com/cooldude12/unnoficialtadc/CostumedGrassBlock.java'
+            exclude 'com/cooldude12/unnoficialtadc/CostumedStoneBlock.java'
+            exclude 'com/cooldude12/unnoficialtadc/CostumeItem.java'
+            exclude 'com/cooldude12/unnoficialtadc/CostumeMap.java'
+            exclude 'com/cooldude12/unnoficialtadc/CostumeRemoverItem.java'
+            exclude 'com/cooldude12/unnoficialtadc/ModArmorMaterials.java'
+            exclude 'com/cooldude12/unnoficialtadc/ModBlockEntities.java'
         }
     }
 }

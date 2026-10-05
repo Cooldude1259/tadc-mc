@@ -2,7 +2,7 @@ package com.cooldude12.unnoficialtadc;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.world.InteractionResult;
+import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -17,16 +17,17 @@ public class TrimExtractorBlock extends Block {
     }
 
     @Override
-    protected InteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
+    protected ItemInteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
         UNOFFICIALTADCMCServer.LOGGER.info("TrimExtractorBlock used by player: " + player.getName().getString() + " with item: " + stack.getItem().toString());
 
         if (level.isClientSide()) {
-            return InteractionResult.SUCCESS;
+            return ItemInteractionResult.SUCCESS;
         }
 
         // Server side logic
         UNOFFICIALTADCMCServer.LOGGER.info("Processing TrimExtractorBlock interaction on server side.");
 
-        return InteractionResult.PASS;
+        // NOTE: verify this constant name via Ctrl+N on ItemInteractionResult -- "PASS_TO_DEFAULT_BLOCK_INTERACTION" is my best guess for this version, not confirmed.
+        return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
     }
 }

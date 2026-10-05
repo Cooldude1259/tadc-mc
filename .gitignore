@@ -58,3 +58,50 @@ src/main/java/com/cooldude12/unnoficialtadc/ShellBlock.java
 
 # Dev-only worldgen holding folder (see RESTORE_NOTES.md inside it)
 _dev_only_worldgen/
+
+# Loom's decompiled-source output (from genSources) -- generated, not source
+remappedSrc/
+
+# Old cleanup-leftover folders -- contents meant to be deleted by hand
+_delete_manually/
+_hidden_dev_worldgen/
+
+# 1.21.1 failing code
+src/main/java/com/cooldude12/unnoficialtadc/client/
+src/main/java/com/cooldude12/unnoficialtadc/CostumeBlockEntity.java
+src/main/java/com/cooldude12/unnoficialtadc/CostumedGrassBlock.java
+src/main/java/com/cooldude12/unnoficialtadc/CostumedStoneBlock.java
+src/main/java/com/cooldude12/unnoficialtadc/CostumeItem.java
+src/main/java/com/cooldude12/unnoficialtadc/CostumeMap.java
+src/main/java/com/cooldude12/unnoficialtadc/CostumeRemoverItem.java
+src/main/java/com/cooldude12/unnoficialtadc/ModArmorMaterials.java
+src/main/java/com/cooldude12/unnoficialtadc/ModBlockEntities.java
+
+src/main/resources/assets/tadc-mc/models/item/stone_horns.json
+src/main/resources/assets/tadc-mc/models/item/stone_horns_icon.json
+src/main/resources/assets/tadc-mc/models/item/test-costume.json
+src/main/resources/assets/tadc-mc/models/item/test_costume_icon.json
+
+src/main/resources/assets/tadc-mc/models/item/costume_remover.json
+
+src/main/resources/assets/tadc-mc/textures/item/costume_remover.png
+src/main/resources/assets/tadc-mc/textures/item/crown.png
+src/main/resources/assets/tadc-mc/textures/item/stone_horns.png
+src/main/resources/assets/tadc-mc/textures/item/stone_horns_icon.png
+src/main/resources/assets/tadc-mc/textures/item/test_costume_icon.png
+
+src/main/resources/assets/tadc-mc/models/item/crown.json
+
+src/main/resources/assets/tadc-mc/textures/models/
+
+src/main/resources/data/tadc-mc/advancement/
+
+src/main/resources/data/tadc-mc/recipe/costume_remover.json
+src/main/resources/data/tadc-mc/recipe/test_costume.json
+
+src/main/resources/assets/tadc-mc/items/costume_remover.json
+src/main/resources/assets/tadc-mc/items/crown.json
+src/main/resources/assets/tadc-mc/items/stone_horns.json
+src/main/resources/assets/tadc-mc/items/test_costume.json
+
+src/main/resources/data/minecraft/tags/
