@@ -72,34 +72,4 @@ public class ModBlocks {
             false
     );
 
-    // Maybe delete?
-
-    // public static final Block RESTORED = register(
-    //        "restored",
-    //        Block::new,
-    //        BlockBehaviour.Properties.of().strength(1.5f),
-    //        true
-    //);
-
-    /*public static final Block SHELL = register(
-            "shell",
-            ShellBlock::new,
-            BlockBehaviour.Properties.of().strength(1.0f).randomTicks(),
-            true
-    );
-
-    public static final Block MIND = register(
-            "mind",
-            Block::new,
-            BlockBehaviour.Properties.of().strength(1.5f).lightLevel(state -> 15),
-            true
-    );
-
-    public static final Block MIND_DEEP = register(
-            "mind_deep",
-            Block::new,
-            BlockBehaviour.Properties.of().strength(1.5f).lightLevel(state -> 7),
-            true
-    );*/
-
 }

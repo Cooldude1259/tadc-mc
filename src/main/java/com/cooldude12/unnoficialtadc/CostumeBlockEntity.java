@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
@@ -22,7 +23,12 @@ public class CostumeBlockEntity extends BlockEntity {
     private Block originalBlock = Blocks.AIR;
 
     public CostumeBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntities.COSTUME_BLOCK_ENTITY, pos, state);
+        this(ModBlockEntities.COSTUME_BLOCK_ENTITY, pos, state);
+    }
+
+    /** For other mods: subclass this and pass your own registered BlockEntityType. */
+    protected CostumeBlockEntity(BlockEntityType<?> type, BlockPos pos, BlockState state) {
+        super(type, pos, state);
     }
 
     public ItemStack getCostume() {
